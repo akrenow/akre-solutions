@@ -5,7 +5,7 @@ export const TESTIMONIALS = [
         company: "TechNova Solutions",
         companyUrl: "#",
         image: "/images/testimonials/person1.jpg",
-        content: "AKRE's custom software solution streamlined our operations, resulting in a 40% increase in productivity. Their team delivered beyond our expectations.",
+        content: "Zintronia's custom software solution streamlined our operations, resulting in a 40% increase in productivity. Their team delivered beyond our expectations.",
         time: "3:45 PM",
         date: "Jun 20, 2024",
         highlighted: true
@@ -16,7 +16,7 @@ export const TESTIMONIALS = [
         company: "UrbanStyle Retail",
         companyUrl: "#",
         image: "/images/testimonials/person2.jpg",
-        content: "The e-commerce platform developed by AKRE helped us achieve 3x more online sales within the first quarter. Their digital marketing strategy was spot on!",
+        content: "The e-commerce platform developed by Zintronia helped us achieve 3x more online sales within the first quarter. Their digital marketing strategy was spot on!",
         time: "11:10 AM",
         date: "Jul 2, 2024"
     },
@@ -26,7 +26,7 @@ export const TESTIMONIALS = [
         company: "HealthCare Plus",
         companyUrl: "#",
         image: "/images/testimonials/person3.jpg",
-        content: "AKRE's healthcare management system transformed our patient care services. The team's expertise in healthcare technology is truly impressive.",
+        content: "Zintronia's healthcare management system transformed our patient care services. The team's expertise in healthcare technology is truly impressive.",
         time: "9:30 AM",
         date: "Aug 15, 2023",
         highlighted: true
@@ -37,7 +37,7 @@ export const TESTIMONIALS = [
         company: "EduTech Innovations",
         companyUrl: "#",
         image: "/images/testimonials/person4.jpg",
-        content: "Our learning management system, developed by AKRE, has been a game-changer. The platform handles thousands of concurrent users without any issues.",
+        content: "Our learning management system, developed by Zintronia, has been a game-changer. The platform handles thousands of concurrent users without any issues.",
         time: "2:00 PM",
         date: "Sep 5, 2024"
     },
@@ -47,7 +47,7 @@ export const TESTIMONIALS = [
         company: "LogiTrans Solutions",
         companyUrl: "#",
         image: "/images/testimonials/person1.jpg",
-        content: "The logistics management system AKRE built for us reduced our operational costs by 35% and improved delivery times significantly.",
+        content: "The logistics management system Zintronia built for us reduced our operational costs by 35% and improved delivery times significantly.",
         time: "4:15 PM",
         date: "Oct 10, 2024",
         highlighted: true

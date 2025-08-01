@@ -33,13 +33,13 @@ export const INTEGRATIONS: Integration[] = [
     },
     {
         name: "Snapchat",
-        description: "Automate your workflows by connecting Akre with thousands of apps through Snapchat.",
+        description: "Automate your workflows by connecting Zintronia with thousands of apps through Snapchat.",
         icon: "/icons/snapchat.svg",
         category: "api"
     },
     {
         name: "Reddit",
-        description: "Share and engage with the Reddit community directly from your Akre dashboard.",
+        description: "Share and engage with the Reddit community directly from your Zintronia dashboard.",
         icon: "/icons/reddit.svg",
         category: "social"
     },

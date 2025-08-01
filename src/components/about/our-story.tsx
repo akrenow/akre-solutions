@@ -35,7 +35,7 @@ const OurStory = () => {
                                     />
                                 </div>
                                 <p className="text-base md:text-lg text-muted-foreground text-left mt-2 max-w-2xl">
-                                    AKRE was founded by a group of friends united by a shared vision: to create innovative digital solutions that make a real difference. Though we're new, our passion and expertise drive us to deliver exceptional results.
+                                    Zintronia was founded by a group of friends united by a shared vision: to create innovative digital solutions that make a real difference. Though we're new, our passion and expertise drive us to deliver exceptional results.
                                 </p>
                             </div>
                         </Container>

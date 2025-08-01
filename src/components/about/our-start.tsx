@@ -18,13 +18,13 @@ const OurStart = () => {
                     </Container>
                     <Container delay={0.1} className="flex grow">
                         <h2 className="text-3xl md:text-4xl font-semibold text-left md:text-center mt-4">
-                            How AKRE Began Its Journey
+                            How Zintronia Began Its Journey
                         </h2>
                     </Container>
                     <Container delay={0.3} className="max-w-2xl mx-auto">
                         <p className="text-base md:text-lg text-muted-foreground text-left md:text-center mt-4 max-w-2xl">
                             <span className="text-balance">
-                                AKRE was founded in 2024 by a group of friends who shared a common passion for technology and innovation. We may be new, but our team brings together years of combined experience in software development, design, and digital solutions.
+                                Zintronia was founded in 2024 by a group of friends who shared a common passion for technology and innovation. We may be new, but our team brings together years of combined experience in software development, design, and digital solutions.
                             </span>
                             <br />
                             <br />

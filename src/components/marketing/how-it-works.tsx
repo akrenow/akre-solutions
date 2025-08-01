@@ -19,7 +19,7 @@ const HowItWorks = () => {
                 <Container>
                     <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto">
                         <h2 className="text-3xl lg:text-4xl font-semibold tracking-tight">
-                            Why Choose AKRE?
+                            Why Choose Zintronia?
                         </h2>
                         <p className="text-base lg:text-lg font-normal text-muted-foreground mt-4">
                             Transform your business with our cutting-edge technology solutions and expertise
