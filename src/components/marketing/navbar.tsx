@@ -43,9 +43,14 @@ const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.2 }}
                 >
-                    <Link href="/" className="flex items-center gap-2 font-bold text-2xl">
-                        AKRE
-                    </Link>
+                    <div>
+                        <Link href="/" className="flex items-center gap-2 font-bold text-2xl">
+                            Zintronia
+                        </Link>
+                        <p className="text-sm text-muted-foreground">
+                            Part of Akre Partners Pvt Ltd
+                        </p>
+                    </div>
                 </motion.div>
 
                 <div className="hidden lg:flex flex-row flex-1 absolute inset-0 items-center justify-center w-max mx-auto gap-x-3 text-sm text-muted-foreground font-medium">

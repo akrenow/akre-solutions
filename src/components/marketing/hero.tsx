@@ -26,7 +26,7 @@ const Hero = () => {
                         <div className="flex items-center justify-center gap-x-1 px-2 py-1.5 relative w-max mx-auto rounded-full before:absolute before:inset-0 before:-z-10 before:p-[1px] before:rounded-3xl before:bg-gradient-to-b before:from-neutral-700 before:to-neutral-900 before:content-[''] after:absolute after:inset-[1px] after:-z-10 after:rounded-[22px] after:bg-[#181818]/60">
                             <Icons.stars className="size-5" />
                             <span className="text-sm text-white">
-                                AKRE - Your Technology Partner
+                            Zintronia - Your Technology Partner
                             </span>
                         </div>
                     </Container>
@@ -39,7 +39,7 @@ const Hero = () => {
 
                     <Container delay={0.2}>
                         <p className="text-base md:text-lg font-normal text-center text-balance text-muted-foreground max-w-3xl mx-auto mt-4">
-                            From concept to deployment, AKRE builds innovative software solutions that drive growth and success for businesses of all sizes
+                            From concept to deployment, Zintronia builds innovative software solutions that drive growth and success for businesses of all sizes
                         </p>
                     </Container>
 
