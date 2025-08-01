@@ -19,7 +19,7 @@ const AboutHero = () => {
                             <div className="flex items-center justify-center gap-x-1 px-2 py-1.5 relative w-max mx-auto md:mx-0 rounded-full before:absolute before:inset-0 before:-z-10 before:p-[1px] before:rounded-3xl before:bg-gradient-to-b before:from-neutral-700 before:to-neutral-900 before:content-[''] after:absolute after:inset-[1px] after:-z-10 after:rounded-[22px] after:bg-[#181818]/60">
                                 <Icons.stars className="size-5" />
                                 <span className="text-sm text-white">
-                                    About AKRE
+                                    About Zintronia
                                 </span>
                             </div>
                         </Container>
@@ -32,7 +32,7 @@ const AboutHero = () => {
 
                         <Container delay={0.2}>
                             <p className="text-base lg:text-lg text-muted-foreground text-center lg:text-left mt-4 max-w-2xl mx-auto lg:mx-0">
-                                Founded in 2024, AKRE is a dynamic tech startup dedicated to delivering innovative digital solutions. We combine fresh perspectives with deep technical expertise to help businesses thrive in the digital age.
+                                Founded in 2024, Zintronia is a dynamic tech startup dedicated to delivering innovative digital solutions. We combine fresh perspectives with deep technical expertise to help businesses thrive in the digital age.
                             </p>
                         </Container>
 

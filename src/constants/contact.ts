@@ -3,12 +3,12 @@ import { PhoneIcon, MailIcon, MapPinIcon } from "lucide-react";
 export const CONTACT_CARDS = [
     {
         title: "Phone Number",
-        value: "+1 (123) 456-7890",
+        value: " +91 72593 56756",
         icon: PhoneIcon
     },
     {
-        title: "Akre Address",
-        value: "Mangalore, India",
+        title: "Zintronia Address",
+        value: " Akre Partners Pvt Ltd 1-226 Kelaginamane, Konaje , Mangalore, Karnataka, India",
         icon: MapPinIcon
     },
     {

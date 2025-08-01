@@ -16,23 +16,23 @@ const Footer = () => {
                     <Container animation="fadeRight" delay={0.4}>
                         <div className="flex flex-col items-start justify-start md:max-w-[300px]">
                             <div className="flex items-center gap-2">
-                                <Image
+                                {/* <Image
                                     src="/icons/icon.svg"
-                                    alt="Akre"
+                                    alt="Zintronia"
                                     width={32}
                                     height={32}
                                     className="size-6"
-                                />
+                                /> */}
                                 <span className="text-lg lg:text-xl font-medium">
-                                    Akre
+                                Zintronia
                                 </span>
                             </div>
                             <p className="text-muted-foreground mt-4 text-sm">
                                 Effortlessly launch robust, <br />production-ready projects
                             </p>
                             <div className="mt-4 text-sm text-muted-foreground px-4 py-2 cursor-pointer rounded-full border border-border/40 bg-foreground/5 hover:bg-foreground/10 transition-colors duration-300">
-                                <Link href="tel:+11234567890">
-                                    <p>+1 (123) 456-7890</p>
+                                <Link href="tel:+917259356756">
+                                    <p> +91 7259356756</p>
                                 </Link>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Container animation="fadeUp" delay={1}>
                     <div className="mt-16 border-t border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">
                         <p className="text-sm text-muted-foreground">
-                            © {new Date().getFullYear()} Akre. All rights reserved.
+                            © {new Date().getFullYear()} Zintronia. All rights reserved.
                         </p>
                     </div>
                 </Container>

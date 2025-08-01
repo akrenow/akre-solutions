@@ -26,7 +26,7 @@ const OurMission = () => {
                         </Container>
                         <Container delay={0.3}>
                             <p className="text-base md:text-lg text-muted-foreground text-left mt-2 max-w-2xl">
-                                At AKRE, we're on a mission to help businesses like yours thrive in the digital age. Founded in 2024, we combine fresh thinking with deep technical expertise to deliver solutions that make a real impact.
+                                At Zintronia, we're on a mission to help businesses like yours thrive in the digital age. Founded in 2024, we combine fresh thinking with deep technical expertise to deliver solutions that make a real impact.
                             </p>
                             <p className="text-base lg:text-lg font-normal text-muted-foreground mt-4">
                                 Our approach is simple: we listen, we create, and we deliver. We're not just another tech company – we're your partners in innovation, committed to helping you achieve your goals through smart, effective digital solutions.

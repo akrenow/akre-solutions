@@ -1,34 +1,34 @@
 export const FAQS = [
     {
-        question: "What services does AKRE offer?",
-        answer: "AKRE provides comprehensive software development services including custom web and mobile applications, enterprise software solutions, digital transformation, AI integration, and cloud services. We specialize in full-stack development, workflow automation, UI/UX design, and system integration.",
+        question: "What services does Zintronia offer?",
+        answer: "Zintronia provides comprehensive software development services including custom web and mobile applications, enterprise software solutions, digital transformation, AI integration, and cloud services. We specialize in full-stack development, workflow automation, UI/UX design, and system integration.",
     },
     {
-        question: "How can I get in touch with AKRE for a project inquiry?",
+        question: "How can I get in touch with Zintronia for a project inquiry?",
         answer: "You can reach our team at info@akrenow.com. We typically respond within 24 hours to discuss your project requirements and how we can assist you.",
     },
     {
-        question: "What technologies does AKRE work with?",
+        question: "What technologies does Zintronia work with?",
         answer: "Our expertise spans across modern technologies including React, Node.js, Python, .NET, AI/ML frameworks, mobile development (iOS/Android), cloud platforms (AWS, Azure, GCP), and various databases. We stay updated with the latest industry trends and best practices.",
     },
     {
-        question: "What is AKRE's approach to project development?",
+        question: "What is Zintronia's approach to project development?",
         answer: "We follow an agile development methodology, ensuring flexibility and transparency throughout the project. Our process includes requirement analysis, planning, design, development, testing, and deployment with regular client feedback loops.",
     },
     {
-        question: "Does AKRE provide AI integration services?",
+        question: "Does Zintronia provide AI integration services?",
         answer: "Yes, we offer comprehensive AI integration services including implementation of machine learning models, natural language processing, computer vision, and predictive analytics. We help businesses leverage AI to gain competitive advantages and improve operational efficiency."
     },
     {
-        question: "Can AKRE help automate our business processes?",
+        question: "Can Zintronia help automate our business processes?",
         answer: "Absolutely. We specialize in workflow automation solutions including Robotic Process Automation (RPA), business process automation, and custom automation tools. Our team analyzes your workflows to identify automation opportunities that can save time and reduce costs."
     },
     {
-        question: "What kind of AI solutions can AKRE implement?",
+        question: "What kind of AI solutions can Zintronia implement?",
         answer: "We develop various AI solutions including intelligent chatbots, recommendation systems, predictive maintenance, image recognition, and natural language processing applications. Our team works with you to identify the best AI approach for your specific business needs."
     },
     {
-        question: "Does AKRE provide post-launch support for AI and automation solutions?",
+        question: "Does Zintronia provide post-launch support for AI and automation solutions?",
         answer: "Yes, we offer ongoing support and maintenance for all our AI and automation solutions. This includes model retraining, performance monitoring, and updates to ensure your systems continue to perform optimally."
     },
     {
