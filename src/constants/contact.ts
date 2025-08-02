@@ -13,7 +13,7 @@ export const CONTACT_CARDS = [
     },
     {
         title: "Email Address",
-        value: "info@akrenow.com",
+        value: " info@zintronia.com",
         icon: MailIcon
     }
 ] as const;
