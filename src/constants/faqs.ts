@@ -5,7 +5,7 @@ export const FAQS = [
     },
     {
         question: "How can I get in touch with Zintronia for a project inquiry?",
-        answer: "You can reach our team at info@akrenow.com. We typically respond within 24 hours to discuss your project requirements and how we can assist you.",
+        answer: "You can reach our team at  info@zintronia.com. We typically respond within 24 hours to discuss your project requirements and how we can assist you.",
     },
     {
         question: "What technologies does Zintronia work with?",
