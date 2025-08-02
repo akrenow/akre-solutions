@@ -3,7 +3,7 @@
 ## Company Overview
 
 **Company Name:** AKRE
-**Contact Email:** info@akrenow.com
+**Contact Email:**  info@zintronia.com
 **Company Type:** Full-Service Software Development & Digital Solutions Provider
 **Mission:** Delivering comprehensive software solutions and digital services to help businesses grow and succeed in the digital age.
 **Core Focus:** Custom software development, web applications, mobile apps, and complete digital transformation services.
@@ -223,7 +223,7 @@ Each service should have its own detailed page:
 - Team member profiles
 - Company values and culture
 - Certifications and partnerships
-- Office locations and contact info (info@akrenow.com)
+- Office locations and contact info ( info@zintronia.com)
 
 ### Portfolio Page
 - Filter by industry/technology
@@ -240,7 +240,7 @@ Each service should have its own detailed page:
 - SEO-optimized content
 
 ### Contact Page
-- Multiple contact methods (info@akrenow.com)
+- Multiple contact methods ( info@zintronia.com)
 - Contact form with project details
 - Office locations and hours
 - Response time expectations
