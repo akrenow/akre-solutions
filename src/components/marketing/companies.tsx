@@ -10,7 +10,7 @@ const Companies = () => {
                 <Container>
                     <div className="flex flex-col items-center justify-center px-2 md:px-0">
                         <h4 className="text-xl lg:text-2xl font-semibold text-center tracking-tight">
-                            The world's best companies trust Akre
+                            The world's best companies trust Zintronia
                         </h4>
                     </div>
                 </Container>
