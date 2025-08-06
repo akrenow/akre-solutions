@@ -5,6 +5,7 @@ import Image from "next/image";
 import Container from "../global/container";
 import { Button } from "../ui/button";
 import { CheckCircle2Icon } from "lucide-react";
+import { CloudCardDemo } from '../ui/cloud-providers';
 
 const AboutHero = () => {
     return (
@@ -64,15 +65,17 @@ const AboutHero = () => {
 
                     <Container className="w-full z-30">
                         <div className="">
-                            <Image
-                                src="/images/about/hero.svg"
+                                 <CloudCardDemo />
+                            {/* <Image
+                              src="/images/hero.svg"
+                                // src="/images/about/hero.svg"
                                 alt="About"
                                 priority
                                 width={2932}
                                 height={1664}
                                 loading="eager"
                                 className="w-full h-full"
-                            />
+                            /> */}
                         </div>
                     </Container>
                 </div>
