@@ -1,21 +1,21 @@
 import { Metadata } from "next";
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} `,
+    title = `Zintronia`,
     description = ``,
     image = "/thumbnail.png",
-    icons = [
-        {
-            rel: "apple-touch-icon",
-            sizes: "32x32",
-            url: "/icons/icon.svg"
-        },
-        {
-            rel: "icon",
-            sizes: "32x32",
-            url: "/icons/icon.svg"
-        },
-    ],
+    // icons = [
+    //     {
+    //         rel: "apple-touch-icon",
+    //         sizes: "32x32",
+    //         url: "/icons/icon.svg"
+    //     },
+    //     {
+    //         rel: "icon",
+    //         sizes: "32x32",
+    //         url: "/icons/icon.svg"
+    //     },
+    // ],
     noIndex = false
 }: {
     title?: string;
@@ -26,6 +26,6 @@ export const generateMetadata = ({
 } = {}): Metadata => ({
     title,
     description,
-    icons,
+    // icons,
     ...(noIndex && { robots: { index: false, follow: false } }),
 });
