@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM node:20-alpine AS builder
+FROM node:20-alpine AS base
 
 # Create a new base filed named 'deps' based on the 'base' stage
 FROM base AS deps
