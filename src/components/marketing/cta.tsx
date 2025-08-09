@@ -3,6 +3,7 @@ import React from 'react'
 import Wrapper from "../global/wrapper";
 import Container from "../global/container";
 import Image from "next/image";
+import Link from "next/link"
 import { Button } from "../ui/button";
 
 const CTA = () => {
@@ -48,12 +49,16 @@ const CTA = () => {
           />
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6 w-full">
+        <Link href="/contact">
           <Button size="lg" className="w-full sm:w-auto">
             Schedule a Call
           </Button>
+          </Link>
+          <Link href="/contact" >
           <Button variant="outline" className="gap-2 w-full sm:w-auto">
             Contact Us
           </Button>
+          </Link>
         </div>
       </Container>
     </div>
