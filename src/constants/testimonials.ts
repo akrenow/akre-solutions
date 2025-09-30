@@ -1,55 +1,24 @@
 export const TESTIMONIALS = [
     {
-        name: "Rajesh Kumar",
-        role: "CTO",
-        company: "TechNova Solutions",
-        companyUrl: "#",
-        image: "/images/testimonials/person1.jpg",
-        content: "Zintronia's custom software solution streamlined our operations, resulting in a 40% increase in productivity. Their team delivered beyond our expectations.",
-        time: "3:45 PM",
-        date: "Jun 20, 2024",
+        name: "Sudeep Suryabettu",
+        role: "Plant Manager / Head of Operations",
+        company: "Bronze Solar",
+        companyUrl: "https://bronzesolar.com/",
+        image: "data:image/jpeg;base64,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",  // (use a real image if you get permission)
+        content: "Zintronia's development and digital strategy have elevated our brand in the solar energy industry. Their team understood our vision — from conveying cutting-edge solar technology to engaging stakeholders — and delivered a website and web solutions that reflect our credibility and innovation.",
+        time: "",    // optional or leave blank if not needed
+        date: "Jul 2025",
         highlighted: true
     },
     {
-        name: "Priya Sharma",
-        role: "Marketing Director",
-        company: "UrbanStyle Retail",
-        companyUrl: "#",
-        image: "/images/testimonials/person2.jpg",
-        content: "The e-commerce platform developed by Zintronia helped us achieve 3x more online sales within the first quarter. Their digital marketing strategy was spot on!",
-        time: "11:10 AM",
-        date: "Jul 2, 2024"
-    },
-    {
-        name: "Amit Patel",
-        role: "CEO",
-        company: "HealthCare Plus",
-        companyUrl: "#",
-        image: "/images/testimonials/person3.jpg",
-        content: "Zintronia's healthcare management system transformed our patient care services. The team's expertise in healthcare technology is truly impressive.",
-        time: "9:30 AM",
-        date: "Aug 15, 2023",
-        highlighted: true
-    },
-    {
-        name: "Neha Gupta",
+        name: "Sharmila",
         role: "Founder",
-        company: "EduTech Innovations",
-        companyUrl: "#",
+        company: "Vistara Infra Developer",
+        companyUrl: "https://vistarainfradevelopers.in/",
         image: "/images/testimonials/person4.jpg",
-        content: "Our learning management system, developed by Zintronia, has been a game-changer. The platform handles thousands of concurrent users without any issues.",
-        time: "2:00 PM",
-        date: "Sep 5, 2024"
+        content: "We trusted Zintronia with a full rebuild of our company website, and they delivered more than expected. Their attention to detail, responsive communication, and creative solutions helped position us strongly in our market.",
+        time: "",
+        date: "Aug 2025"
     },
-    {
-        name: "Vikram Mehta",
-        role: "Operations Head",
-        company: "LogiTrans Solutions",
-        companyUrl: "#",
-        image: "/images/testimonials/person1.jpg",
-        content: "The logistics management system Zintronia built for us reduced our operational costs by 35% and improved delivery times significantly.",
-        time: "4:15 PM",
-        date: "Oct 10, 2024",
-        highlighted: true
-    }
+    // … you can keep your existing generic ones too
 ];

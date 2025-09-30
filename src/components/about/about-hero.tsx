@@ -1,11 +1,11 @@
 import React from 'react'
 import Wrapper from "../global/wrapper";
 import Icons from "../global/icons";
-import Image from "next/image";
 import Container from "../global/container";
 import { Button } from "../ui/button";
 import { CheckCircle2Icon } from "lucide-react";
 import { CloudCardDemo } from '../ui/cloud-providers';
+import Link from 'next/link';
 
 const AboutHero = () => {
     return (
@@ -56,16 +56,17 @@ const AboutHero = () => {
 
                         <Container delay={0.3}>
                             <div className="mt-6 flex justify-center lg:justify-start">
-                                <Button size="md">
+                                <Link href={"https://calendly.com/zintronia/30min"}><Button size="md">
                                     Get Your Free Consultation
                                 </Button>
+                                </Link>
                             </div>
                         </Container>
                     </div>
 
                     <Container className="w-full z-30">
                         <div className="">
-                                 <CloudCardDemo />
+                            <CloudCardDemo />
                             {/* <Image
                               src="/images/hero.svg"
                                 // src="/images/about/hero.svg"

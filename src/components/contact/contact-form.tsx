@@ -7,7 +7,6 @@ import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { Textarea } from "../ui/textarea";
-import { UploadIcon } from "lucide-react";
 
 const ContactForm = () => {
   const initialState = {
@@ -22,7 +21,7 @@ const ContactForm = () => {
 
   const [values, setValues] = useState(initialState);
 
-  const handleChange = (e: { target: { id: any; value: any; }; }) => {
+  const handleChange = (e: { target: { id: string | number; value: string | number; }; }) => {
     setValues({ ...values, [e.target.id]: e.target.value, error: "", submit: "" });
   };
 

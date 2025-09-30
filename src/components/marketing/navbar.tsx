@@ -7,9 +7,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Container from "../global/container";
-import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import MobileMenu from "./mobile-menu";
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -44,10 +44,10 @@ const Navbar = () => {
                     transition={{ duration: 0.2 }}
                 >
                     <div>
-                        <Link href="/" className="flex items-center gap-2 font-bold text-2xl">
-                            Zintronia
+                        <Link href="/" className="flex items-center mt-5">
+                            <Image src="/images/logo.png" alt="Zintronia" width={150} height={100} />
                         </Link>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs text-muted-foreground">
                             Part of Akre Partners Pvt Ltd
                         </p>
                     </div>

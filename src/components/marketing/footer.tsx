@@ -1,8 +1,8 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import Container from "../global/container";
 import Wrapper from "../global/wrapper";
-import { PRODUCT_LINKS, RESOURCES_LINKS } from "@/constants";
+import { RESOURCES_LINKS } from "@/constants";
 
 const Footer = () => {
     return (
@@ -24,7 +24,7 @@ const Footer = () => {
                                     className="size-6"
                                 /> */}
                                 <span className="text-lg lg:text-xl font-medium">
-                                Zintronia
+                                    Zintronia
                                 </span>
                             </div>
                             <p className="text-muted-foreground mt-4 text-sm">
@@ -39,7 +39,7 @@ const Footer = () => {
                     </Container>
 
                     <div className="grid grid-cols-2 md:place-items-end w-full">
-                        <Container animation="fadeUp" delay={0.5}>
+                        {/* <Container animation="fadeUp" delay={0.5}>
                             <div>
                                 <h3 className="text-base font-medium">
                                     Product
@@ -63,7 +63,7 @@ const Footer = () => {
                                     ))}
                                 </ul>
                             </div>
-                        </Container>
+                        </Container> */}
 
                         <Container animation="fadeUp" delay={0.5}>
                             <div>
