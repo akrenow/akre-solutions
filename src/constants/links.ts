@@ -17,7 +17,7 @@ export const PRODUCT_LINKS = [
 export const RESOURCES_LINKS = [
     { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
-    { label: "Help Center", href: "/help" },
+    // { label: "Help Center", href: "/help" },
     { label: "Contact Us", href: "/contact" },
 ];
 

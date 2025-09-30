@@ -5,6 +5,7 @@ import Image from "next/image";
 import Container from "../global/container";
 import { Button } from "../ui/button";
 import Globe from '../ui/globe';
+import Link from 'next/link';
 
 const Hero = () => {
     return (
@@ -26,7 +27,7 @@ const Hero = () => {
                         <div className="flex items-center justify-center gap-x-1 px-2 py-1.5 relative w-max mx-auto rounded-full before:absolute before:inset-0 before:-z-10 before:p-[1px] before:rounded-3xl before:bg-gradient-to-b before:from-neutral-700 before:to-neutral-900 before:content-[''] after:absolute after:inset-[1px] after:-z-10 after:rounded-[22px] after:bg-[#181818]/60">
                             <Icons.stars className="size-5" />
                             <span className="text-sm text-white">
-                            Zintronia - Your Technology Partner
+                                Zintronia - Your Technology Partner
                             </span>
                         </div>
                     </Container>
@@ -45,12 +46,14 @@ const Hero = () => {
 
                     <Container delay={0.3}>
                         <div className="mt-6">
-                            <Button size="md">
+                            <Link href={"https://calendly.com/zintronia/30min"}><Button size="md">
                                 Get Your Free Consultation
                             </Button>
+                            </Link>
+
                         </div>
                     </Container>
-
+                    
                     <Container className="w-full z-30">
 
                         <Globe />

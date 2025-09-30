@@ -5,6 +5,7 @@ import Image from "next/image"
 import Container from "../global/container"
 import { Button } from "../ui/button"
 import { CheckCircle2Icon } from "lucide-react"
+import Link from 'next/link'
 
 const IntegrationsHero = () => {
     return (
@@ -54,9 +55,10 @@ const IntegrationsHero = () => {
 
                         <Container delay={0.3}>
                             <div className="mt-6">
-                                <Button size="md">
+                                <Link href={"https://calendly.com/zintronia/30min"}><Button size="md">
                                     Get Your Free Consultation
                                 </Button>
+                                </Link>
                             </div>
                         </Container>
                     </div>

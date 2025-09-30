@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "../global/container";
 import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
@@ -43,9 +44,11 @@ const OurStart = () => {
                                 <p className="text-lg text-black/80 mt-4 max-w-lg">
                                     Partner with a team that's as passionate about your success as you are. Let's create something extraordinary together.
                                 </p>
-                                <Button size="md" variant="black" className="mt-6">
-                                    Get Started
-                                </Button>
+                                <Link href="/contact" className="hidden lg:block">
+                                    <Button size="md" variant="black" className="mt-6">
+                                        Contact us
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </Container>

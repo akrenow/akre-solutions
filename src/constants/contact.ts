@@ -8,7 +8,7 @@ export const CONTACT_CARDS = [
     },
     {
         title: "Zintronia Address",
-        value: " Akre Partners Pvt Ltd 1-226 Kelaginamane, Konaje , Mangalore, Karnataka, India",
+        value: " Akre Partners Pvt Ltd 1-226, Konaje , Mangalore, Karnataka, India",
         icon: MapPinIcon
     },
     {

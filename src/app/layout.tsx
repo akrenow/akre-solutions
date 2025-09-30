@@ -23,6 +23,7 @@ export default function RootLayout({
                 <Providers>
                     {children}
                 </Providers>
+                <link rel="icon" href="/images/favicon.ico" sizes="any" />
             </body>
         </html>
     );
