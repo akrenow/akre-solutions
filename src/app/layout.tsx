@@ -3,6 +3,9 @@ import { base, heading } from "@/constants/fonts";
 import { cn } from "@/lib";
 import "@/styles/globals.css";
 import { generateMetadata } from "@/utils";
+import { OrganizationSchema, WebsiteSchema } from "@/components/seo/structured-data";
+import { SEOTesting } from "@/components/seo/seo-testing";
+import { GoogleAnalytics } from "@/components/seo/analytics";
 
 export const metadata = generateMetadata();
 
@@ -13,6 +16,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
+            <head>
+                <OrganizationSchema />
+                <WebsiteSchema />
+            </head>
             <body
                 className={cn(
                     "min-h-screen bg-[#050505] text-foreground font-base antialiased dark",
@@ -20,10 +27,11 @@ export default function RootLayout({
                     heading.variable,
                 )}
             >
+                <GoogleAnalytics />
                 <Providers>
                     {children}
                 </Providers>
-                <link rel="icon" href="/images/favicon.ico" sizes="any" />
+                <SEOTesting />
             </body>
         </html>
     );
