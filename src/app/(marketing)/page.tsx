@@ -1,4 +1,4 @@
-import Blogs from "@/components/marketing/blogs";
+// import Blogs from "@/components/marketing/blogs";
 import CTA from "@/components/marketing/cta";
 import Faq from "@/components/marketing/faq";
 import Hero from "@/components/marketing/hero";
@@ -23,7 +23,7 @@ const HomePage = () => {
             <Faq />
             {/* <Stats /> */}
             <Testimonials />
-            <Blogs />
+            {/* <Blogs /> */}
             <CTA />
         </div>
     );

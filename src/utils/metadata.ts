@@ -27,7 +27,7 @@ export const generateMetadata = ({
 }: MetadataProps = {}): Metadata => {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://zintronia.com";
     const fullUrl = url ? `${baseUrl}${url}` : baseUrl;
-    const imageUrl = image ? `${baseUrl}${image}` : `${baseUrl}/images/logo.png`;
+    const imageUrl = image ? `${baseUrl}${image}` : `${baseUrl}/images/favicon.ico`;
 
     return {
         title,
@@ -96,7 +96,7 @@ export const generateMetadata = ({
                 { url: "/images/icon.svg", type: "image/svg+xml" },
             ],
             apple: [
-                { url: "/images/logo.png", sizes: "180x180" },
+                { url: "/images/favicon.ico", sizes: "180x180" },
             ],
         },
 

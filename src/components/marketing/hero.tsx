@@ -53,11 +53,11 @@ const Hero = () => {
 
                         </div>
                     </Container>
-                    
-                    <Container className="w-full z-30">
+
+                    {/* <Container className="w-full z-30">
 
                         <Globe />
-                    </Container>
+                    </Container> */}
                 </div>
             </Wrapper>
         </div>
