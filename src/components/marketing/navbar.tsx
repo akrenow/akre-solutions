@@ -44,10 +44,10 @@ const Navbar = () => {
                     transition={{ duration: 0.2 }}
                 >
                     <div>
-                        <Link href="/" className="flex items-center mt-5">
-                            <Image src="/images/logo.png" alt="Zintronia" width={150} height={100} />
+                        <Link href="/" className="flex items-center mt-2">
+                            <Image src="/images/logo.png" alt="Zintronia" width={120} height={80} />
                         </Link>
-                        <p className="text-xs text-muted-foreground">
+                        <p className="text-xs text-muted-foreground pb-2">
                             Part of Akre Partners Pvt Ltd
                         </p>
                     </div>

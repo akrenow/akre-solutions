@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Container from "../global/container";
 import Wrapper from "../global/wrapper";
 import { RESOURCES_LINKS } from "@/constants";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className="absolute top-0 w-4/5 mx-auto inset-x-0 h-px bg-gradient-to-r from-[#050505] via-primary/40 to-[#050505]"></div>
                 </Container>
 
-                <div className="grid gap-8 xl:grid-cols-2 xl:gap-8">
+                <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-16 lg:gap-32 mt-12">
                     <Container animation="fadeRight" delay={0.4}>
                         <div className="flex flex-col items-start justify-start md:max-w-[300px]">
                             <div className="flex items-center gap-2">
@@ -38,8 +39,7 @@ const Footer = () => {
                         </div>
                     </Container>
 
-                    <div className="grid grid-cols-2 md:place-items-end w-full">
-                        {/* <Container animation="fadeUp" delay={0.5}>
+                    {/* <Container animation="fadeUp" delay={0.5}>
                             <div>
                                 <h3 className="text-base font-medium">
                                     Product
@@ -65,33 +65,52 @@ const Footer = () => {
                             </div>
                         </Container> */}
 
-                        <Container animation="fadeUp" delay={0.5}>
-                            <div>
-                                <h3 className="text-base font-medium">
-                                    Resources
-                                </h3>
-                                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                                    {RESOURCES_LINKS.map((link, index) => (
-                                        <Container
-                                            key={index}
-                                            animation="fadeLeft"
-                                            delay={0.7 + (index * 0.1)}
-                                        >
-                                            <li>
-                                                <Link
-                                                    href={link.href}
-                                                    className="hover:text-foreground transition-colors"
-                                                >
-                                                    {link.label}
-                                                </Link>
-                                            </li>
-                                        </Container>
-                                    ))}
-                                </ul>
-                            </div>
-                        </Container>
-                    </div>
+                    <Container animation="fadeUp" delay={0.5}>
+                        <div>
+                            <h3 className="text-base font-medium">
+                                Resources
+                            </h3>
+                            <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
+                                {RESOURCES_LINKS.map((link, index) => (
+                                    <Container
+                                        key={index}
+                                        animation="fadeLeft"
+                                        delay={0.7 + (index * 0.1)}
+                                    >
+                                        <li>
+                                            <Link
+                                                href={link.href}
+                                                className="hover:text-foreground transition-colors"
+                                            >
+                                                {link.label}
+                                            </Link>
+                                        </li>
+                                    </Container>
+                                ))}
+                            </ul>
+                        </div>
+                    </Container>
+
+
                 </div>
+
+                <Container animation="fadeUp" delay={0.9}>
+                    <div className="mt-8 flex items-center justify-center gap-6">
+                        <Link href="http://facebook.com/people/Zintronia/61582276522879/" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <FaFacebook size={24} />
+                        </Link>
+                        <Link href="https://x.com/zintronia" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <FaTwitter size={24} />
+                        </Link>
+                        <Link href="https://instagram.com/zintronia" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <FaInstagram size={24} />
+                        </Link>
+                        <Link href="https://www.linkedin.com/company/zintronia" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <FaLinkedin size={24} />
+                        </Link>
+                    </div>
+                </Container>
+
 
                 <Container animation="fadeUp" delay={1}>
                     <div className="mt-16 border-t border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">

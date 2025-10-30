@@ -53,7 +53,7 @@ const Hero = () => {
 
                         </div>
                     </Container>
-                    
+
                     <Container className="w-full z-30">
 
                         <Globe />
