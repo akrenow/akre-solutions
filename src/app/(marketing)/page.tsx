@@ -18,7 +18,7 @@ import { useEffect } from "react";
 //     "AI solutions, digital transformation, artificial intelligence consulting, technology services, business automation, Akre Partners, Zintronia",
 // });
 
-export function getClustora() {
+function getClustora() {
   if (typeof window === "undefined") return null;
   if (!window.clustora) return null;
   return window.clustora;
