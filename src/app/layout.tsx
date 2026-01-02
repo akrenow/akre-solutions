@@ -1,3 +1,5 @@
+"use client";
+
 import Script from "next/script";
 import Providers from "@/components/global/providers";
 import { base, heading } from "@/constants/fonts";
@@ -11,7 +13,7 @@ import {
 import { SEOTesting } from "@/components/seo/seo-testing";
 import { GoogleAnalytics } from "@/components/seo/analytics";
 
-export const metadata = generateMetadata();
+// export const metadata = generateMetadata();
 
 export default function RootLayout({
   children,
@@ -23,6 +25,13 @@ export default function RootLayout({
       <head>
         <OrganizationSchema />
         <WebsiteSchema />
+        <Script
+          src="/clustora_sdk.js"
+          strategy="afterInteractive"
+          onLoad={() => {
+            console.log("Clustora SDK loaded");
+          }}
+        />
       </head>
 
       <body
@@ -32,8 +41,6 @@ export default function RootLayout({
           heading.variable
         )}
       >
-        <Script src="/clustora_sdk.js" strategy="afterInteractive" />
-
         <Script id="clustora-init" strategy="afterInteractive">
           {`
             if (window.clustora) {
